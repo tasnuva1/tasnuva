@@ -1,0 +1,17 @@
+.footer-whole-container {
+  background-color: #26284c;
+  height: 22vh;
+  margin-top: 0px;
+  .footer-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      padding-top: 9rem;
+      height: 17px;
+    }
+  }
+}

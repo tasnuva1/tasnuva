@@ -1,0 +1,84 @@
+.main-container {
+  background: linear-gradient(to right, #26284c 50%, #ff5757 0%);
+  height: 100vh;
+  color: #fff;
+  .coding-screen {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 44rem;
+    transform: translate(-50%, -50%);
+  }
+
+  .main-contant {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh; /// C
+
+    .main-contant1 {
+      z-index: 1;
+      padding-left: 12rem;
+      height: 18rem; // C
+      span {
+        font-family: "Nanum Gothic Coding", monospace;
+        font-size: 1.8rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+        line-height: 2rem;
+      }
+      h1 {
+        font-family: "Lato", sans-serif;
+        font-size: 4.4rem;
+        font-weight: bold;
+        line-height: 4rem;
+      }
+      .title2 {
+        font-family: "Nanum Gothic Coding", monospace;
+        font-weight: bold;
+        font-size: 2.2rem;
+        letter-spacing: 0.55rem;
+        color: #7af84d;
+        line-height: 2rem;
+      }
+      p {
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-size: 1.5rem;
+        width: 34rem;
+        height: 4.2rem;
+        line-height: 2.2rem;
+        color: #71728a;
+      }
+      .button-resume {
+        margin-top: 3.6rem;
+      }
+    }
+
+    .main-contant2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 34rem;
+      height: 19rem;
+      padding-top: 17.5rem;
+      p {
+        font-style: normal;
+        font-family: Lato;
+        font-weight: bold;
+        font-size: 3.2rem;
+        line-height: 1.4rem;
+        text-align: center;
+        text-decoration-line: underline;
+        text-transform: capitalize;
+        color: #ffffff;
+      }
+
+      .button-work {
+        margin-top: 2.5rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.contact-whole-container {
+  background-color: #26284c;
+  height: 52vh;
+  .contact-container {
+    width: 80%;
+    margin: auto;
+
+    .contact-info {
+      display: flex;
+      .contact-phone {
+        padding-left: 24rem;
+      }
+    }
+  }
+}

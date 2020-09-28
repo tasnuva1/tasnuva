@@ -1,0 +1,75 @@
+.react-tabs {
+  -webkit-tap-highlight-color: transparent;
+
+  &__tab-list {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    width: 15vw; ////// tob1
+  }
+
+  &__tab--selected {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  &__tab-panel {
+    .react-tabs {
+      display: flex;
+      width: 70vw;
+      justify-content: space-between;
+
+      .react-tabs__tab-list {
+        width: 350px; /// tab2
+        padding-right: 1rem;
+      }
+    }
+  }
+
+  &__tab {
+    display: inline-block;
+    border: 1px solid transparent;
+    border-bottom: none;
+    bottom: -1px;
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+
+    &--selected {
+      border: #f45353 4px solid;
+      color: black;
+      border-radius: 5px 5px 5px 5px;
+      padding: 0px;
+      margin: 0px;
+    }
+
+    &--disabled {
+      color: GrayText;
+      cursor: default;
+    }
+
+    &:focus {
+      box-shadow: 0 0 5px hsl(208, 99%, 50%);
+      border-color: hsl(208, 99%, 50%);
+      outline: none;
+
+      &:after {
+        content: "";
+        position: absolute;
+        height: 5px;
+        left: -4px;
+        right: -4px;
+        bottom: -5px;
+        background: #fff;
+      }
+    }
+  }
+
+  &__tab-panel {
+    display: none;
+
+    &--selected {
+      display: block;
+    }
+  }
+}
