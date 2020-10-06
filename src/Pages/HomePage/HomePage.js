@@ -4,7 +4,6 @@ import ProjectsPage from "../ProjectsPage/ProjectsPage";
 import OnTheWeb from "../OnTheWeb/OnTheWeb";
 import ContactPage from "../ContactPage/ContactPage";
 import Footer from "../Footer/Footer";
-import ProjectsTap from "../../Components/ProjectsTap/ProjectsTap";
 
 const HomePage = () => {
   return (
@@ -14,7 +13,6 @@ const HomePage = () => {
       <OnTheWeb />
       <ContactPage />
       <Footer />
-      <ProjectsTap />
     </div>
   );
 };
