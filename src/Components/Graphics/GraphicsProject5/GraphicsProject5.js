@@ -1,29 +1,25 @@
-import React from "react";
-import "../GraphicsProject1/GraphicsProject1.scss";
-import "../../../react-tabs.scss";
+import React from 'react';
+import '../GraphicsProject1/GraphicsProject1.scss';
+import '../../../react-tabs.scss';
 
-import Tap3Screen from "../../Tap3Screen/Tap3Screen";
-import SingleSkill from "../../SingleSkill/SingleSkill";
-import DescriptionHeading from "../../DescriptionHeading/DescriptionHeading";
-import DescriptionParagrap from "../../DescriptionParagrap/DescriptionParagrap";
-import production from "../../../ExternalAssets/production.mp4";
+import Tap3Screen from '../../Tap3Screen/Tap3Screen';
+import SingleSkill from '../../SingleSkill/SingleSkill';
+import DescriptionHeading from '../../DescriptionHeading/DescriptionHeading';
+import DescriptionParagrap from '../../DescriptionParagrap/DescriptionParagrap';
+import production from '../../../ExternalAssets/production.mp4';
 
 const GraphicsProject5 = () => {
   return (
-    <div className="tap3-container">
-      <div className="tap3">
-        <div className="tab3-border">
+    <div className='tap3-container'>
+      <div className='tap3'>
+        <div className='tab3-border'>
           <Tap3Screen video={production} />
-          <div className="skill-container">
-            <SingleSkill skill="REACTS" />
-            <SingleSkill skill="REDUX" />
-            <SingleSkill skill="NODE" />
-            <SingleSkill skill="EXPRESS" />
-            <SingleSkill skill="FIGMA" />
-            <SingleSkill skill="PHOTOSHOP CC" />
+          <div className='skill-container'>
+            <SingleSkill skill='FIGMA' />
+            <SingleSkill skill='ILLUSTRATOR CC' />
           </div>
 
-          <DescriptionHeading heading="Web Dev / Synthesis" />
+          <DescriptionHeading heading='Web Dev / Synthesis' />
 
           <DescriptionParagrap
             paragrap="Synthesis is unique way to watch you favorite live game streamers

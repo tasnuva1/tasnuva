@@ -1,34 +1,34 @@
-import React from "react";
-import "./OnTheWeb.scss";
+import React from 'react';
+import './OnTheWeb.scss';
 
-import Headings from "../../Components/Headings/Headings";
+import Headings from '../../Components/Headings/Headings';
+import WebLink from '../../Components/WebLink/WebLink.jsx';
 
-import github from "../../ExternalAssets/github.svg";
-import dribble from "../../ExternalAssets/dribble.svg";
-import linkedin from "../../ExternalAssets/linkedin.svg";
-import codepen from "../../ExternalAssets/codepen.svg";
-import pinterest from "../../ExternalAssets/pinterest.svg";
-import instagram from "../../ExternalAssets/instagram.svg";
-import behance from "../../ExternalAssets/behance.svg";
-import twitter from "../../ExternalAssets/twitter.svg";
+import github from '../../ExternalAssets/Web-Logos/github.svg';
+import dribbble from '../../ExternalAssets/Web-Logos/dribbble.svg';
+import linkedin from '../../ExternalAssets/Web-Logos/linkedin.svg';
+import codepen from '../../ExternalAssets/Web-Logos/codepen.svg';
+import pinterest from '../../ExternalAssets/Web-Logos/pinterest.svg';
+import instagram from '../../ExternalAssets/Web-Logos/instagram.svg';
+import behance from '../../ExternalAssets/Web-Logos/behance.svg';
+import twitter from '../../ExternalAssets/Web-Logos/twitter.svg';
 
 const OnTheWeb = () => {
   return (
-    <div className="web-whole-container">
-      <div className="web-container">
-        <div className="web-headings">
-          <Headings heading1="MORE OF MY WORKS" heading2="On The Web" />
+    <div className='web-whole-container' id='about'>
+      <div className='web-container'>
+        <div className='web-headings'>
+          <Headings heading1='MORE OF MY WORKS' heading2='On The Web' />
         </div>
-
-        <div className="web-links-container">
-          <img src={github} alt="" />
-          <img src={dribble} alt="" />
-          <img src={linkedin} alt="" />
-          <img src={codepen} alt="" />
-          <img src={pinterest} alt="" />
-          <img src={instagram} alt="" />
-          <img src={behance} alt="" />
-          <img src={twitter} alt="" />
+        <div className='web-links-container'>
+          <WebLink img={github} lable='github' />
+          <WebLink img={dribbble} lable='dribbble' />
+          <WebLink img={linkedin} lable='linkedin' />
+          <WebLink img={codepen} lable='codepen' />
+          <WebLink img={pinterest} lable='pinterest' />
+          <WebLink img={instagram} lable='instagram' />
+          <WebLink img={behance} lable='behance' />
+          <WebLink img={twitter} lable='twitter' />
         </div>
       </div>
     </div>

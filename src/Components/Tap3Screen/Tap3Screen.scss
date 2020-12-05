@@ -1,6 +1,7 @@
 .preview {
   width: 100%;
-  height: 375px; /// C
+  // height: 375px; /// C
+  height: 100%;
   border: 4px solid #f45353;
   box-sizing: border-box;
   overflow: hidden;
@@ -16,4 +17,12 @@
     height: 100%;
     width: 100%;
   }
+}
+
+.previewthreed {
+  width: 100%;
+  height: 375px; /// C
+  border: 4px solid #f45353;
+  box-sizing: border-box;
+  overflow: hidden;
 }
