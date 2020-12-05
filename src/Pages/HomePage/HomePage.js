@@ -9,7 +9,7 @@ import SubNavigation from '../../Components/SubNavigation/SubNavigation.jsx';
 const HomePage = () => {
   return (
     <div>
-      <MainContent />
+      <MainContent /> 
       <ProjectsPage />
       <OnTheWeb />
       <ContactPage />
