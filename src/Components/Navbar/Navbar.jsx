@@ -11,7 +11,17 @@ const Navbar = () => {
   return (
     <header>
       <div className='navbar-container'>
-        <img src={logo} alt='Logo' />
+        <Link
+          activeClass='active'
+          to='main'
+          spy={true}
+          smooth={true}
+          offset={30}
+          duration={500}
+        >
+          <img src={logo} alt='Logo' />
+        </Link>
+
         <nav className='nav-links'>
           <div className='nav-link'>
             <Link

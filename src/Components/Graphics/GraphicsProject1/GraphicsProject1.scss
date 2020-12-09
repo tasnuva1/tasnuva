@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&display=swap');
 
 .projectpage-container {
   background: #26284c;
@@ -29,25 +29,25 @@
   .tab1-container {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-row-gap: 10px;
-    height: 80vh;
+    grid-row-gap: 1rem;
+    height: 80%;
   }
   .tab2-container {
-    height: 80vh;
+    height: 80%;
     .tap2 {
       display: grid;
-      grid-row-gap: 10px;
-      height: 80vh;
+      grid-row-gap: 1rem;
+      height: 80%;
       width: 34.3rem; ////// tap2
       overflow: auto;
     }
   }
 
   .tap3-container {
-    height: 80vh;
+    height: 80%;
     .tap3 {
-      width: 46vw; ////////// tab3
-      height: 80vh;
+      width: 46%; ////////// tab3
+      height: 80%;
       overflow: auto;
 
       .skill-container {
@@ -61,17 +61,17 @@
 ////////////
 .tap2 {
   display: grid;
-  grid-row-gap: 10px;
-  height: 80vh;
+  grid-row-gap: 1rem;
+  height: 80%;
   overflow: auto;
 }
 
 ul {
-  padding: 0px;
-  margin: 0px;
+  padding: 0rem;
+  margin: 0rem;
 }
 
 li {
-  padding: 0px;
-  margin: 0px;
+  padding: 0rem;
+  margin: 0rem;
 }

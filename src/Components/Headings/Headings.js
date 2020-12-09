@@ -8,6 +8,7 @@ const Headings = ({
   style,
   id,
   email,
+  phone,
 }) => {
   return (
     <div className='headings-container' style={style} id={id}>
@@ -20,10 +21,22 @@ const Headings = ({
           {' '}
           <a
             href='mailto:tasnuva.contact@gmail.com'
-            target='_blank'
+            // target='_blank'
             rel='noopener noreferrer'
           >
             {email}
+          </a>
+        </h3>
+      )}
+      {phone && (
+        <h3 style={{ fontSize: `${heading3FontSize}` }}>
+          {' '}
+          <a
+            href='href="tel:+4692028047"'
+            // target='_blank'
+            rel='noopener noreferrer'
+          >
+            {phone}
           </a>
         </h3>
       )}

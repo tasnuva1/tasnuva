@@ -1,14 +1,13 @@
 .img1 {
-  // width: 324px;
-  height: 166.86px;
+  height: 16.686rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin: 0px;
-  margin-left: 0px;
+  margin: 0rem;
+  margin-left: 0rem;
   cursor: pointer;
 
   .web-links-container {
@@ -23,31 +22,31 @@
     justify-content: flex-end;
 
     .web-links {
-      width: 80px;
+      width: 8rem;
       display: flex;
       justify-content: space-between;
       padding-right: 0.6rem;
       padding-bottom: 0.5rem;
 
       img {
-        height: 24px;
+        height: 2.4rem;
         cursor: pointer;
       }
     }
   }
 
   .tap2-back {
-    height: 22px;
+    height: 2.2rem;
     display: flex;
     align-items: center;
 
     p {
-      padding-left: 23px;
+      padding-left: 2.3rem;
       font-family: Comfortaa;
       font-style: normal;
       font-weight: bold;
-      font-size: 12px;
-      line-height: 13px;
+      font-size: 1.2rem;
+      line-height: 1.3rem;
       text-transform: uppercase;
 
       color: #ffffff;

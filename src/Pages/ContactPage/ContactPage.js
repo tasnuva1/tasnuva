@@ -16,12 +16,18 @@ const ContactPage = () => {
             heading1='EMAIL'
             email='tasnuva.contact@gmail.com'
             heading3FontSize='2.8rem'
-            style={{ paddingTop: '8rem' }}
+            style={{
+              paddingTop: '8rem',
+              // color: '#7bffa0',
+              // textDecoration: 'none',
+              // transition: 'color 0.2s ease-in-out 0s',
+            }}
+            id='email-text'
           />
           <div className='contact-phone'>
             <Headings
               heading1='PHONE'
-              heading2='+(469) 202-8047'
+              phone='+(469) 202-8047'
               heading3FontSize='2.5rem'
               style={{ paddingTop: '8rem' }}
             />

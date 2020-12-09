@@ -1,38 +1,159 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
 html,
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 10px;
   background-color: #26284c;
 }
 
 ::-webkit-scrollbar {
-  width: 18px;
+  width: 1.8rem;
 }
 
 ::-webkit-scrollbar-track {
-  border: 7px solid #323e70;
+  border: 0.7rem solid #323e70;
   background: #232943;
-  box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 0.25rem 0.2rem rgba(0, 0, 0, 0.5);
 }
 
 ::-webkit-scrollbar-thumb {
-  /* background: linear-gradient(45deg #06dee1 #79ff6c); */
   background: #445597;
-  border-radius: 15px;
-  border: #232943 solid 5px;
+  border-radius: 1.5rem;
+  border: #232943 solid 0.5rem;
 }
-/* /////////// */
-/* ::-webkit-scrollbar-button {
-  background: #323e70;
-  border-radius: 3px;
+/* 
+@media (min-width: 1092px) {
+  html,
+  body {
+    font-size: 7px;
+  }
+} */
+/* 
+@media (min-width: 1200px) {
+  html,
+  body {
+    font-size: 8px;
+  }
 } */
 
-/* ::-webkit-scrollbar-corner {
-  background: #cf66ac;
-  border-radius: 3px;
+@media (min-width: 1366px) {
+  html,
+  body {
+    font-size: 9px;
+  }
+}
+
+@media (min-width: 1400px) {
+  html,
+  body {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 1600px) {
+  html,
+  body {
+    font-size: 10.5px;
+  }
+}
+
+@media (min-width: 1700px) {
+  html,
+  body {
+    font-size: 11.2px;
+  }
+}
+
+@media (min-width: 1750px) {
+  html,
+  body {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 1800px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1750px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+}
+@media (min-width: 1950px) {
+  html,
+  body {
+    font-size: 11.5px;
+  }
+}
+
+@media (min-width: 2050px) {
+  html,
+  body {
+    font-size: 14.5px;
+  }
+}
+
+@media (min-width: 2100px) {
+  html,
+  body {
+    font-size: 15.5px;
+  }
+}
+
+@media (min-width: 2150px) {
+  html,
+  body {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 2200px) {
+  html,
+  body {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 2250px) {
+  html,
+  body {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 2300px) {
+  html,
+  body {
+    font-size: 24px;
+  }
+}
+/* 
+@media (min-width: 1400px) {
+  html,
+  body {
+    font-size: 26px;
+  }
+} */
+/* 
+@media (min-width: 1500px) {
+  html,
+  body {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 1600px) {
+  html,
+  body {
+    font-size: 12px;
+  }
 } */
