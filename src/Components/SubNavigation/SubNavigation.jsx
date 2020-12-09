@@ -10,11 +10,9 @@ const SubNavigation = () => {
     window.addEventListener('scroll', () => {
       if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
         setIsbottom(true);
-        console.log('Now on the Bottom.');
       }
       if (window.innerHeight + window.scrollY <= document.body.offsetHeight) {
         setIsbottom(false);
-        console.log('Now on the Top.');
       }
     });
   });

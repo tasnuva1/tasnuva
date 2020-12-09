@@ -5,23 +5,23 @@
   &__tab-list {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-row-gap: 10px;
-    width: 15vw; ////// tob1
+    grid-row-gap: 1rem;
+    width: 15%; ////// tob1
   }
 
   &__tab--selected {
-    padding: 0px;
-    margin: 0px;
+    padding: 0rem;
+    margin: 0rem;
   }
 
   &__tab-panel {
     .react-tabs {
       display: flex;
-      width: 70vw;
+      // width: 106.5rem;
       justify-content: space-between;
 
       .react-tabs__tab-list {
-        width: 350px; /// tab2
+        width: 35rem; /// tab2
         padding-right: 1rem;
       }
     }
@@ -29,19 +29,19 @@
 
   &__tab {
     display: inline-block;
-    border: 1px solid transparent;
+    border: 0.1rem solid transparent;
     border-bottom: none;
-    bottom: -1px;
+    bottom: -0.1rem;
     position: relative;
     list-style: none;
     cursor: pointer;
 
     &--selected {
-      border: #f45353 4px solid;
+      border: #f45353 0.4rem solid;
       color: black;
-      border-radius: 5px 5px 5px 5px;
-      padding: 0px;
-      margin: 0px;
+      border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+      padding: 0rem;
+      margin: 0rem;
     }
 
     &--disabled {
@@ -50,17 +50,17 @@
     }
 
     &:focus {
-      box-shadow: 0 0 5px hsl(208, 99%, 50%);
+      box-shadow: 0 0 0.5rem hsl(208, 99%, 50%);
       border-color: hsl(208, 99%, 50%);
       outline: none;
 
       &:after {
-        content: "";
+        content: '';
         position: absolute;
-        height: 5px;
-        left: -4px;
-        right: -4px;
-        bottom: -5px;
+        height: 0.5rem;
+        left: -0.4rem;
+        right: -0.4rem;
+        bottom: -0.5rem;
         background: #fff;
       }
     }
