@@ -1,5 +1,5 @@
 .tab1 {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 2rem;
@@ -23,7 +23,7 @@ h3 {
 }
 
 .tab1::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   width: 100%;

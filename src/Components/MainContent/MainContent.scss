@@ -93,55 +93,13 @@
 
 ///////////////////////////// brackpoin /////////////////////////////
 
-// @media (min-width: 100px) {
-//   .main-contant {
-//     height: 55rem;
-//   }
-// }
-
-// @media (min-width: 200px) {
-//   .main-contant {
-//     height: 1.8px;
-//   }
-// }
-
-// @media (min-width: 300px) {
-//   .main-contant {
-//     height: 2.2px;
-//   }
-// }
-
-// @media (min-width: 400px) {
-//   .main-contant {
-//     height: 3px;
-//   }
-// }
-
-// @media (min-width: 500px) {
-//   .main-contant {
-//     height: 3.5px;
-//   }
-// }
-
-// @media (min-width: 600px) {
-//   .main-contant {
-//     height: 4.4px;
-//   }
-// }
-
-// @media (min-width: 700px) {
-//   .main-contant {
-//     height: 5.2px;
-//   }
-// }
-
-// @media (min-width: 800px) {
-//   .main-contant {
-//     height: 5px;
-//   }
-// }
-
 @media (min-width: 400px) {
+  .main-container .main-contant {
+    width: 90%;
+  }
+}
+
+@media (min-width: 600px) {
   .main-container .main-contant {
     width: 90%;
   }
@@ -150,6 +108,12 @@
 @media (min-width: 702px) {
   .main-container .main-contant {
     width: 90%;
+  }
+}
+
+@media (min-width: 902px) {
+  .main-container .main-contant {
+    width: 80%;
   }
 }
 
@@ -174,5 +138,11 @@
 @media (min-width: 1200px) {
   .main-container .coding-screen {
     top: 42rem;
+  }
+}
+
+@media (min-width: 1166px) {
+  .main-container .main-contant {
+    width: 80%;
   }
 }
