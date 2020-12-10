@@ -25,20 +25,89 @@ body {
   border-radius: 1.5rem;
   border: #232943 solid 0.5rem;
 }
-/* 
-@media (min-width: 1092px) {
+
+@media (min-width: 100px) {
+  html,
+  body {
+    font-size: 1.4px;
+  }
+}
+
+@media (min-width: 200px) {
+  html,
+  body {
+    font-size: 1.8px;
+  }
+}
+
+@media (min-width: 300px) {
+  html,
+  body {
+    font-size: 2.2px;
+  }
+}
+
+@media (min-width: 400px) {
+  html,
+  body {
+    font-size: 3px;
+  }
+}
+
+@media (min-width: 500px) {
+  html,
+  body {
+    font-size: 3.5px;
+  }
+}
+
+@media (min-width: 600px) {
+  html,
+  body {
+    font-size: 4.4px;
+  }
+}
+
+@media (min-width: 700px) {
+  html,
+  body {
+    font-size: 5.2px;
+  }
+}
+
+@media (min-width: 800px) {
+  html,
+  body {
+    font-size: 5px;
+  }
+}
+
+@media (min-width: 900px) {
+  html,
+  body {
+    font-size: 6px;
+  }
+}
+
+@media (min-width: 1000px) {
   html,
   body {
     font-size: 7px;
   }
-} */
-/* 
+}
+
+@media (min-width: 1100px) {
+  html,
+  body {
+    font-size: 7.5px;
+  }
+}
 @media (min-width: 1200px) {
   html,
   body {
     font-size: 8px;
   }
-} */
+}
 
 @media (min-width: 1366px) {
   html,
@@ -88,24 +157,25 @@ body {
     font-size: 12px;
   }
 }
+
 @media (min-width: 1950px) {
   html,
   body {
-    font-size: 11.5px;
+    font-size: 13.5px;
   }
 }
 
 @media (min-width: 2050px) {
   html,
   body {
-    font-size: 14.5px;
+    font-size: 18px;
   }
 }
 
 @media (min-width: 2100px) {
   html,
   body {
-    font-size: 15.5px;
+    font-size: 18px;
   }
 }
 
@@ -119,41 +189,27 @@ body {
 @media (min-width: 2200px) {
   html,
   body {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
 @media (min-width: 2250px) {
   html,
   body {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 
-@media (min-width: 2300px) {
+@media (min-width: 3840px) {
   html,
   body {
-    font-size: 24px;
-  }
-}
-/* 
-@media (min-width: 1400px) {
-  html,
-  body {
-    font-size: 26px;
-  }
-} */
-/* 
-@media (min-width: 1500px) {
-  html,
-  body {
-    font-size: 11px;
+    font-size: 27px;
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 4840px) {
   html,
   body {
-    font-size: 12px;
+    font-size: 36px;
   }
-} */
+}

@@ -4,7 +4,8 @@
   .web-container {
     width: 80%;
     margin: auto;
-    height: 85vh;
+    // height: 85vh;
+    height: 80rem;
 
     .web-headings {
       padding-top: 4rem;
@@ -13,10 +14,17 @@
     .web-links-container {
       padding-top: 5rem;
       display: grid;
-      grid-template-rows: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: repeat(3, 8rem);
+      grid-template-columns: repeat(auto-fit, 26.4rem);
+      grid-template-columns: repeat(3, 1fr);
       grid-row-gap: 4.5rem;
       grid-column-gap: 4rem;
     }
+  }
+}
+
+@media (min-width: 600px) {
+  .main-container .main-contant {
+    width: 90%;
   }
 }
