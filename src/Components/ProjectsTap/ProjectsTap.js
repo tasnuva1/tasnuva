@@ -22,7 +22,6 @@ import Project1 from '../WebDev/Project1/Project1';
 import Project2 from '../WebDev/Project2/Project2';
 import Project3 from '../WebDev/Project3/Project3';
 import Project4 from '../WebDev/Project4/Project4';
-// import Project5 from '../WebDev/Project5/Project5';
 
 import GraphicsProject1 from '../Graphics/GraphicsProject1/GraphicsProject1';
 import GraphicsProject2 from '../Graphics/GraphicsProject2/GraphicsProject2';

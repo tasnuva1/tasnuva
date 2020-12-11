@@ -1,12 +1,9 @@
 .main-container {
   background: linear-gradient(to right, #26284c 50%, #ff5757 0%);
-  // height: 100vh;
   height: 78rem;
   color: #fff;
   .coding-screen {
     position: absolute;
-    // top: 45%;
-    // left: 50%;
     top: 42rem;
     left: 50%;
     width: 44rem;
@@ -19,7 +16,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    // height: 60vh; /// C
     height: 57rem; /// C
 
     .main-contant1 {

@@ -5,8 +5,6 @@ import logo from '../../ExternalAssets/tasnuva-logo.svg';
 import Btn2 from '../Btn2/Btn2';
 import { Link } from 'react-scroll';
 
-// import { Link, animateScroll as scroll } from 'react-scroll';
-
 const Navbar = () => {
   return (
     <header>

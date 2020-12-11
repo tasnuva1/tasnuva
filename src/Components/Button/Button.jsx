@@ -10,8 +10,4 @@ const Button = ({ children, btn2, image }) => {
   );
 };
 
-// Button.defaultProps = {
-//   btn: "primary-btn",
-// };
-
 export default Button;

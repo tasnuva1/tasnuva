@@ -6,11 +6,7 @@ const ContactPage = () => {
   return (
     <div className='contact-whole-container' id='contect'>
       <div className='contact-container'>
-        <Headings
-          heading1='CONTACT —'
-          heading2='Look Who’s Here'
-          // style={{ paddingTop: '11rem' }}
-        />
+        <Headings heading1='CONTACT —' heading2='Look Who’s Here' />
         <div className='contact-info'>
           <Headings
             heading1='EMAIL'
@@ -18,9 +14,6 @@ const ContactPage = () => {
             heading3FontSize='2.8rem'
             style={{
               paddingTop: '8rem',
-              // color: '#7bffa0',
-              // textDecoration: 'none',
-              // transition: 'color 0.2s ease-in-out 0s',
             }}
             id='email-text'
           />

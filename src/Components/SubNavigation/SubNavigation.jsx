@@ -27,9 +27,9 @@ const SubNavigation = () => {
           smooth={true}
           offset={0}
           duration={500}
-          className='subnav1'
+          className='subnav1 tooltip'
         >
-          {/* <div className='subnav1 subnav-active'></div> */}
+          <span class='tooltiptext'>Home</span>
         </Link>
         <div className='subnav--line1'></div>
         <Link
@@ -39,9 +39,9 @@ const SubNavigation = () => {
           smooth={true}
           offset={38}
           duration={500}
-          className='subnav2'
+          className='subnav2 tooltip'
         >
-          {/* <div className='subnav2'></div> */}
+          <span class='tooltiptext'>Work</span>
         </Link>
         <div className='subnav--line2'></div>
         {
@@ -52,10 +52,9 @@ const SubNavigation = () => {
             smooth={true}
             offset={30}
             duration={500}
-            className='subnav3'
-            // onScroll={handleScroll}
+            className='subnav3 tooltip'
           >
-            {/* <div className='subnav3'></div> */}
+            <span class='tooltiptext'>About</span>
           </Link>
         }
         <div className='subnav--line3'></div>
@@ -67,13 +66,13 @@ const SubNavigation = () => {
           smooth={true}
           offset={0}
           duration={500}
-          className={isbottom ? 'subnav-active subnav4' : 'subnav4'}
+          className={
+            isbottom ? 'subnav-active subnav4 tooltip' : 'subnav4 tooltip'
+          }
         >
           {' '}
-          {/* <div className='subnav4'></div> */}
+          <span class='tooltiptext'>Contect</span>
         </Link>
-
-        {/* <div className='subnav--line4'></div> */}
       </div>
     </div>
   );

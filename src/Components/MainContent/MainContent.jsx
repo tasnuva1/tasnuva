@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import './MainContent.scss';
 import Navbar from '../Navbar/Navbar';
 
@@ -32,7 +33,18 @@ const MainContent = () => {
             <p>You Wanna See?</p>
           </div>
           <div className='button-work'>
-            <Button btn2={true}>work</Button>
+            <Button btn2={true}>
+              <Link
+                activeClass='active'
+                to='work'
+                spy={true}
+                smooth={true}
+                offset={30}
+                duration={500}
+              >
+                work
+              </Link>
+            </Button>
           </div>
         </div>
       </div>

@@ -9,7 +9,6 @@ function App() {
     <div className='App'>
       <Switch>
         <Route path='/' component={HomePage} exact />
-        {/* <Route exact component={Error} /> */}
       </Switch>
     </div>
   );

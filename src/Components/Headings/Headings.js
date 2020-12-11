@@ -19,11 +19,7 @@ const Headings = ({
       {email && (
         <h3 style={{ fontSize: `${heading3FontSize}` }}>
           {' '}
-          <a
-            href='mailto:tasnuva.contact@gmail.com'
-            // target='_blank'
-            rel='noopener noreferrer'
-          >
+          <a href='mailto:tasnuva.contact@gmail.com' rel='noopener noreferrer'>
             {email}
           </a>
         </h3>
@@ -31,11 +27,7 @@ const Headings = ({
       {phone && (
         <h3 style={{ fontSize: `${heading3FontSize}` }}>
           {' '}
-          <a
-            href='href="tel:+4692028047"'
-            // target='_blank'
-            rel='noopener noreferrer'
-          >
+          <a href='href="tel:+4692028047"' rel='noopener noreferrer'>
             {phone}
           </a>
         </h3>

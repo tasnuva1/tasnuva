@@ -26,17 +26,6 @@ const GraphicsProject3 = () => {
             velop is a way to watch youtube videos in a costume background changer 
             interface to enhance the experience.'
           />
-          {/* 
-          <DescriptionParagrap
-            paragrap="Synthesis is unique way to watch you favorite live game streamers
-              who are playing in the same game instance, at the same time,
-              together. This project uses a Node js backend with Express and
-              MongoDB providing a RESTful API to the front end is completely in
-              React. This is also helps enabled (useing cerbot) and cloudfire.
-              This could not be develped properly with mobile in mind due to
-              it's nature. All design and development from start to finish was
-              done by myself."
-          /> */}
         </div>
       </div>
     </div>
