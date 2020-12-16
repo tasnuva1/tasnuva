@@ -1,8 +1,21 @@
-import React from "react";
-import "./Btn2.scss";
+import React from 'react';
+import './Btn2.scss';
+
+import { Link } from 'react-scroll';
 
 const Btn2 = () => {
-  return <button class="btn btn--white btn--animated">Hire me</button>;
+  return (
+    <Link
+      activeClass='active'
+      to='contect'
+      spy={true}
+      smooth={true}
+      offset={0}
+      duration={500}
+    >
+      <button class='btn btn--white btn--animated'>Hire me</button>
+    </Link>
+  );
 };
 
 export default Btn2;
