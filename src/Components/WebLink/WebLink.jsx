@@ -1,14 +1,10 @@
 import React from 'react';
 import './WebLink.scss';
 
-const WebLink = ({ img, lable }) => {
+const WebLink = ({ img, lable, url }) => {
   return (
     <div className='web-link'>
-      <a
-        href='https://github.com/adeolaadeoti'
-        target='_blank'
-        rel='noopener noreferrer'
-      >
+      <a href={url} target='_blank' rel='noopener noreferrer'>
         <img src={img} alt='github' />
         {lable}
       </a>

@@ -11,7 +11,7 @@ import codepen from '../../ExternalAssets/Web-Logos/codepen.svg';
 import pinterest from '../../ExternalAssets/Web-Logos/pinterest.svg';
 import instagram from '../../ExternalAssets/Web-Logos/instagram.svg';
 import behance from '../../ExternalAssets/Web-Logos/behance.svg';
-import twitter from '../../ExternalAssets/Web-Logos/twitter.svg';
+// import twitter from '../../ExternalAssets/Web-Logos/twitter.svg';
 
 const OnTheWeb = () => {
   return (
@@ -21,14 +21,42 @@ const OnTheWeb = () => {
           <Headings heading1='MORE OF MY WORKS' heading2='On The Web' />
         </div>
         <div className='web-links-container'>
-          <WebLink img={github} lable='github' />
-          <WebLink img={dribbble} lable='dribbble' />
-          <WebLink img={linkedin} lable='linkedin' />
-          <WebLink img={codepen} lable='codepen' />
-          <WebLink img={pinterest} lable='pinterest' />
-          <WebLink img={instagram} lable='instagram' />
-          <WebLink img={behance} lable='behance' />
-          <WebLink img={twitter} lable='twitter' />
+          <WebLink
+            img={github}
+            lable='github'
+            url='https://github.com/tasnuva1'
+          />
+          <WebLink
+            img={dribbble}
+            lable='dribbble'
+            url='https://dribbble.com/tasnuva1'
+          />
+          <WebLink
+            img={linkedin}
+            lable='linkedin'
+            url='https://www.linkedin.com/in/tasnuvaa/'
+          />
+          <WebLink
+            img={codepen}
+            lable='codepen'
+            url='https://codepen.io/tasnuvaa'
+          />
+          <WebLink
+            img={pinterest}
+            lable='pinterest'
+            url='https://www.pinterest.com/tasnuva1/'
+          />
+          <WebLink
+            img={instagram}
+            lable='instagram'
+            url='https://www.instagram.com/codingroad/'
+          />
+          <WebLink
+            img={behance}
+            lable='behance'
+            url='https://www.behance.net/tasnuva'
+          />
+          {/* <WebLink img={twitter} lable='twitter' /> */}
         </div>
       </div>
     </div>

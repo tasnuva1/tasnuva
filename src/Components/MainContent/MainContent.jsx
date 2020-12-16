@@ -20,7 +20,12 @@ const MainContent = () => {
           <h2 className='title2'>DESIGNER + DEVELOPER</h2>
           <p>I’m a UX/UI design and a front-end developer based in Dhaka.</p>
           <div className='button-resume'>
-            <a href={resume} download='tasnuva-resume'>
+            <a
+              href={resume}
+              download='tasnuva-resume'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <Button image={downoadIcon} btn2={false}>
                 resume
               </Button>

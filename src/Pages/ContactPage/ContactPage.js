@@ -20,7 +20,7 @@ const ContactPage = () => {
           <div className='contact-phone'>
             <Headings
               heading1='PHONE'
-              phone='+(469) 202-8047'
+              phone='+(702) 213-8356'
               heading3FontSize='2.5rem'
               style={{ paddingTop: '8rem' }}
             />
