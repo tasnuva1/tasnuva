@@ -15,20 +15,22 @@ const ThreeDRenderProject1 = () => {
         <div className='tab3-border'>
           <Tap3Screen image={web1} />
           <div className='skill-container'>
-            <SingleSkill skill='REACTS' />
-            <SingleSkill skill='REDUX' />
-            <SingleSkill skill='NODE' />
-            <SingleSkill skill='EXPRESS' />
             <SingleSkill skill='FIGMA' />
+            <SingleSkill skill='KEYSHOT 9' />
             <SingleSkill skill='PHOTOSHOP CC' />
           </div>
 
-          <DescriptionHeading heading='Web Dev / Synthesis' />
+          <DescriptionHeading heading='Web Dev / Books Playlist Website' />
 
           <DescriptionParagrap
             paragrap="The site featuring a wide range of books ranging from a variety 
             of categories like playlists of books. Like Spotify's songs playlists, it's 
             books playlists."
+          />
+          <DescriptionParagrap
+            paragrap='This design I made using keyshot 9. Keyshot is a 3D Rendering and 
+            Animation Software. KeyShot brings you real-time 3D rendering that displays results 
+            instantly.'
           />
         </div>
       </div>

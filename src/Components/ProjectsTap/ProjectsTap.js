@@ -197,7 +197,7 @@ const complexTap = (
                 <Tab style={{ height: 167 }}>
                   <SingleTap2
                     image={threeDweb1}
-                    heading='3D Render // realhousey'
+                    heading='3D Render // Books playlist website'
                   />
                 </Tab>
                 {/* <Tab>
