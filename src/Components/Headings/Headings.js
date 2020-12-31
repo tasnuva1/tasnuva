@@ -32,7 +32,8 @@ const Headings = ({
         <h3 style={{ fontSize: `${heading3FontSize}` }}>
           {' '}
           <a
-            href='href="tel:+4692028047"'
+            // href='href="tel:+4692028047"'
+            href='https://join.skype.com/invite/wy86GgpNQ67f"'
             rel='noopener noreferrer'
             target='_blank'
           >

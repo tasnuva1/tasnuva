@@ -19,8 +19,8 @@ const ContactPage = () => {
           />
           <div className='contact-phone'>
             <Headings
-              heading1='PHONE'
-              phone='+(702) 213-8356'
+              heading1='SKYPE CALL'
+              phone='Skype'
               heading3FontSize='2.5rem'
               style={{ paddingTop: '8rem' }}
             />
