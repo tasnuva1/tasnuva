@@ -5,7 +5,7 @@ import Navbar from '../Navbar/Navbar';
 
 import codingScreen from '../../ExternalAssets/coding-screen.svg';
 import downoadIcon from '../../ExternalAssets/download-from-server.svg';
-import resume from '../../ExternalAssets/tasnuva-resume.pdf';
+import resume from '../../ExternalAssets/tasnuvaResume.pdf';
 import Button from '../Button/Button';
 
 const MainContent = () => {
