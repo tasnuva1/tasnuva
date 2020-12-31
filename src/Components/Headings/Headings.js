@@ -33,7 +33,7 @@ const Headings = ({
           {' '}
           <a
             // href='href="tel:+4692028047"'
-            href='https://join.skype.com/invite/wy86GgpNQ67f"'
+            href='https://join.skype.com/invite/wy86GgpNQ67f'
             rel='noopener noreferrer'
             target='_blank'
           >
