@@ -17,6 +17,7 @@ const ThreeDRenderProject1 = () => {
           <div className='skill-container'>
             <SingleSkill skill='FIGMA' />
             <SingleSkill skill='KEYSHOT 9' />
+            <SingleSkill skill='SketchUp' />
             <SingleSkill skill='PHOTOSHOP CC' />
           </div>
 
@@ -31,6 +32,11 @@ const ThreeDRenderProject1 = () => {
             paragrap='This design I made using keyshot 9. Keyshot is a 3D Rendering and 
             Animation Software. KeyShot brings you real-time 3D rendering that displays results 
             instantly.'
+          />
+          <DescriptionParagrap
+            paragrap='SketchUp is a 3D modeling computer program for a wide range of drawing 
+            applications such as architectural, interior design, landscape architecture, civil and 
+            mechanical engineering, film and video game design.'
           />
         </div>
       </div>
