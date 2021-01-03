@@ -19,7 +19,7 @@ const GraphicsProject2 = () => {
             <SingleSkill skill='ILLUSTRATOR CC' />
           </div>
 
-          <DescriptionHeading heading='Web Dev / spapshoot' />
+          <DescriptionHeading heading='Graphics / spapshoot' />
 
           <DescriptionParagrap
             paragrap='This logo represents variations of colors and images. Spapshoot is 

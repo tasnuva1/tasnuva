@@ -23,7 +23,7 @@ const ThreeDRenderProject2 = () => {
             <SingleSkill skill='PHOTOSHOP CC' />
           </div>
 
-          <DescriptionHeading heading='Web Dev / Synthesis' />
+          <DescriptionHeading heading='3D Render / Synthesis' />
 
           <DescriptionParagrap
             paragrap="Synthesis is unique way to watch you favorite live game streamers

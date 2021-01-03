@@ -19,7 +19,7 @@ const GraphicsProject1 = () => {
             <SingleSkill skill='ILLUSTRATOR CC' />
           </div>
 
-          <DescriptionHeading heading='Web Dev / realHousey' />
+          <DescriptionHeading heading='Graphics / realHousey' />
 
           <DescriptionParagrap
             paragrap='realHousey is a way to find the best Properties who are searching 

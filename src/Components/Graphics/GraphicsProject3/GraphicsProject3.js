@@ -19,7 +19,7 @@ const GraphicsProject3 = () => {
             <SingleSkill skill='ILLUSTRATOR CC' />
           </div>
 
-          <DescriptionHeading heading='Web Dev / veplop' />
+          <DescriptionHeading heading='Graphics / veplop' />
 
           <DescriptionParagrap
             paragrap='This symbol represents the YouTube search functionality. 

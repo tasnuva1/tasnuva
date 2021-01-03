@@ -19,7 +19,7 @@ const GraphicsProject4 = () => {
             <SingleSkill skill='ILLUSTRATOR CC' />
           </div>
 
-          <DescriptionHeading heading='Web Dev / Synthesis' />
+          <DescriptionHeading heading='Graphics / Synthesis' />
 
           <DescriptionParagrap
             paragrap='Fresh solid wood that can give you the feeling of the forest, 

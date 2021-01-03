@@ -21,7 +21,7 @@ const ThreeDRenderProject1 = () => {
             <SingleSkill skill='PHOTOSHOP CC' />
           </div>
 
-          <DescriptionHeading heading='Web Dev / Books Playlist Website' />
+          <DescriptionHeading heading='3D Render / Books Playlist Website' />
 
           <DescriptionParagrap
             paragrap="The site featuring a wide range of books ranging from a variety 

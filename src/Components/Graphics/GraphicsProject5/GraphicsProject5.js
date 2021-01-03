@@ -19,7 +19,7 @@ const GraphicsProject5 = () => {
             <SingleSkill skill='ILLUSTRATOR CC' />
           </div>
 
-          <DescriptionHeading heading='Web Dev / Synthesis' />
+          <DescriptionHeading heading='Graphics / Synthesis' />
 
           <DescriptionParagrap
             paragrap="Synthesis is unique way to watch you favorite live game streamers
