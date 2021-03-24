@@ -29,7 +29,7 @@ const SubNavigation = () => {
           duration={500}
           className='subnav1 tooltip'
         >
-          <span class='tooltiptext'>Home</span>
+          <span className='tooltiptext'>Home</span>
         </Link>
         <div className='subnav--line1'></div>
         <Link
@@ -41,7 +41,7 @@ const SubNavigation = () => {
           duration={500}
           className='subnav2 tooltip'
         >
-          <span class='tooltiptext'>Work</span>
+          <span className='tooltiptext'>Work</span>
         </Link>
         <div className='subnav--line2'></div>
         {
@@ -54,7 +54,7 @@ const SubNavigation = () => {
             duration={500}
             className='subnav3 tooltip'
           >
-            <span class='tooltiptext'>About</span>
+            <span className='tooltiptext'>About</span>
           </Link>
         }
         <div className='subnav--line3'></div>
@@ -71,7 +71,7 @@ const SubNavigation = () => {
           }
         >
           {' '}
-          <span class='tooltiptext'>Contect</span>
+          <span className='tooltiptext'>Contect</span>
         </Link>
       </div>
     </div>

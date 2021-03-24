@@ -13,7 +13,7 @@ const Btn2 = () => {
       offset={0}
       duration={500}
     >
-      <button class='btn btn--white btn--animated'>Hire me</button>
+      <button className='btn btn--white btn--animated'>Hire me</button>
     </Link>
   );
 };

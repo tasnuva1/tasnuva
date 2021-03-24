@@ -94,7 +94,7 @@ const complexTap = (
                     image={pro3}
                     url='https://spapshoot.netlify.app/'
                     codeUrl='https://github.com/tasnuva1/spapshoot'
-                    heading='Web Dev // realhousey'
+                    heading='Web Dev // spapshoot'
                   />
                 </Tab>
                 <Tab>
@@ -102,7 +102,7 @@ const complexTap = (
                     image={pro4}
                     url='https://veplop.netlify.app/'
                     codeUrl='https://github.com/tasnuva1/veplop'
-                    heading='Web Dev // realhousey'
+                    heading='Web Dev // veplop'
                   />
                 </Tab>
                 {/* <Tab>
@@ -146,19 +146,16 @@ const complexTap = (
                 <Tab>
                   <SingleTap2
                     image={grapsub3}
-                    heading='Graphics // realhousey'
+                    heading='Graphics // spapshoot'
                   />
                 </Tab>
                 <Tab>
-                  <SingleTap2
-                    image={grapsub2}
-                    heading='Graphics // realhousey'
-                  />
+                  <SingleTap2 image={grapsub2} heading='Graphics // veplop' />
                 </Tab>
                 <Tab>
                   <SingleTap2
                     image={grapsub4}
-                    heading='Graphics // realhousey'
+                    heading='Graphics // Synthesis'
                   />
                 </Tab>
                 {/* <Tab>
