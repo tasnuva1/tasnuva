@@ -1,36 +1,7 @@
-// .upper-layer {
-//   background: #26284c;
-//   height: 78rem;
-//   z-index: 3;
-//   animation: fadeIn ease 3s;
-//   -webkit-animation: fadeIn ease 3s;
-//   -moz-animation: fadeIn ease 3s;
-//   -o-animation: fadeIn ease 3s;
-//   -ms-animation: fadeIn ease 3s;
-// }
-// @keyframes fadeIn {
-//   0% {
-//     opacity: 0;
-//   }
-//   100% {
-//     opacity: 1;
-//   }
-// }
-
-// @keyframes pulse {
-//   0% {
-//     transform: translateY(0);
-//   }
-//   100% {
-//     transform: translateY(-100);
-//   }
-// }
-
 .main-container {
   background: linear-gradient(to right, #26284c 50%, #ff5757 0%);
   height: 78rem;
   color: #fff;
-  // transition: all 2s ease;
   animation: fadeIn ease 2s;
   -webkit-animation: fadeIn ease 2s;
   -moz-animation: fadeIn ease 2s;
