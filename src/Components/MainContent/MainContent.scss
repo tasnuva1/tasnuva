@@ -39,28 +39,29 @@
       padding-left: 12rem;
       height: 18rem; // C
       span {
-        font-family: 'Nanum Gothic Coding', monospace;
+        font-family: "Nanum Gothic Coding", monospace;
         font-size: 1.8rem;
         font-weight: 700;
         letter-spacing: 0.2rem;
-        line-height: 2rem;
+        line-height: 0rem;
       }
       h1 {
-        font-family: 'Lato', sans-serif;
+        font-family: "Lato", sans-serif;
         font-size: 4.4rem;
         font-weight: bold;
-        line-height: 4rem;
+        line-height: 3rem;
       }
       .title2 {
-        font-family: 'Nanum Gothic Coding', monospace;
+        font-family: "Nanum Gothic Coding", monospace;
         font-weight: bold;
         font-size: 2.2rem;
         letter-spacing: 0.55rem;
         color: #7af84d;
-        line-height: 2rem;
+        line-height: 0.5rem;
+        margin: 4.8rem 0 1.7rem 0;
       }
       p {
-        font-family: 'Lato', sans-serif;
+        font-family: "Lato", sans-serif;
         font-weight: 400;
         font-size: 1.5rem;
         width: 34rem;
