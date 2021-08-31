@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .main-container {
   background: linear-gradient(to right, #26284c 50%, #ff5757 0%);
   height: 78rem;
@@ -158,3 +159,166 @@
     width: 80%;
   }
 }
+=======
+.main-container {
+  background: linear-gradient(to right, #26284c 50%, #ff5757 0%);
+  height: 78rem;
+  color: #fff;
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .coding-screen {
+    position: absolute;
+    top: 42rem;
+    left: 50%;
+    width: 44rem;
+    transform: translate(-50%, -55%);
+    z-index: 1;
+  }
+
+  .main-contant {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 57rem; /// C
+
+    .main-contant1 {
+      z-index: 1;
+      padding-left: 12rem;
+      height: 18rem; // C
+      span {
+        font-family: "Nanum Gothic Coding", monospace;
+        font-size: 1.8rem;
+        font-weight: 700;
+        letter-spacing: 0.2rem;
+        line-height: 0rem;
+      }
+      h1 {
+        font-family: "Lato", sans-serif;
+        font-size: 4.4rem;
+        font-weight: bold;
+        line-height: 3rem;
+      }
+      .title2 {
+        font-family: "Nanum Gothic Coding", monospace;
+        font-weight: bold;
+        font-size: 2.2rem;
+        letter-spacing: 0.55rem;
+        color: #7af84d;
+        line-height: 0.5rem;
+        margin: 4.8rem 0 1.7rem 0;
+      }
+      p {
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-size: 1.5rem;
+        width: 34rem;
+        height: 4.2rem;
+        line-height: 2.2rem;
+        color: #71728a;
+      }
+      .button-resume {
+        margin-top: 3.6rem;
+
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+
+    .main-contant2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 34rem;
+      height: 19rem;
+      padding-top: 17.5rem;
+      p {
+        font-style: normal;
+        font-family: Lato;
+        font-weight: bold;
+        font-size: 3.2rem;
+        line-height: 1.4rem;
+        text-align: center;
+        text-decoration-line: underline;
+        text-transform: capitalize;
+        color: #ffffff;
+      }
+
+      .button-work {
+        margin-top: 2.5rem;
+      }
+    }
+  }
+}
+
+///////////////////////////// brackpoin /////////////////////////////
+
+@media (min-width: 400px) {
+  .main-container .main-contant {
+    width: 90%;
+  }
+}
+
+@media (min-width: 600px) {
+  .main-container .main-contant {
+    width: 90%;
+  }
+}
+
+@media (min-width: 702px) {
+  .main-container .main-contant {
+    width: 90%;
+  }
+}
+
+@media (min-width: 902px) {
+  .main-container .main-contant {
+    width: 80%;
+  }
+}
+
+@media (min-width: 900px) {
+  .main-contant {
+    height: 50rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .main-container .coding-screen {
+    top: 43rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .main-container .coding-screen {
+    top: 42rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-container .coding-screen {
+    top: 42rem;
+  }
+}
+
+@media (min-width: 1166px) {
+  .main-container .main-contant {
+    width: 80%;
+  }
+}
+>>>>>>> master
