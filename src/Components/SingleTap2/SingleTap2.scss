@@ -1,5 +1,10 @@
+// .single-tap-container {
+//   display: block;
+// }
+
 .img1 {
   height: 16.686rem;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,8 +14,10 @@
   margin: 0rem;
   margin-left: 0rem;
   cursor: pointer;
+  // margin-bottom: 2rem;
 
   .web-links-container {
+    // display: inline;
     opacity: 0;
   }
 
