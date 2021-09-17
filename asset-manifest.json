@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "./static/css/main.cfa9f8aa.chunk.css",
-    "main.js": "./static/js/main.7d2ba236.chunk.js",
-    "main.js.map": "./static/js/main.7d2ba236.chunk.js.map",
+    "main.css": "./static/css/main.9f23f26f.chunk.css",
+    "main.js": "./static/js/main.b386a250.chunk.js",
+    "main.js.map": "./static/js/main.b386a250.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.916853f0.js",
     "runtime-main.js.map": "./static/js/runtime-main.916853f0.js.map",
-    "static/js/2.046c925e.chunk.js": "./static/js/2.046c925e.chunk.js",
-    "static/js/2.046c925e.chunk.js.map": "./static/js/2.046c925e.chunk.js.map",
+    "static/js/2.f112da60.chunk.js": "./static/js/2.f112da60.chunk.js",
+    "static/js/2.f112da60.chunk.js.map": "./static/js/2.f112da60.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.f3a99003b15b1ef0a5349c264114edf9.js": "./precache-manifest.f3a99003b15b1ef0a5349c264114edf9.js",
+    "precache-manifest.cb344d904607d64ac948cede5a221ae0.js": "./precache-manifest.cb344d904607d64ac948cede5a221ae0.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.cfa9f8aa.chunk.css.map": "./static/css/main.cfa9f8aa.chunk.css.map",
-    "static/js/2.046c925e.chunk.js.LICENSE.txt": "./static/js/2.046c925e.chunk.js.LICENSE.txt",
+    "static/css/main.9f23f26f.chunk.css.map": "./static/css/main.9f23f26f.chunk.css.map",
+    "static/js/2.f112da60.chunk.js.LICENSE.txt": "./static/js/2.f112da60.chunk.js.LICENSE.txt",
     "static/media/DEMO.svg": "./static/media/DEMO.586f8f63.svg",
     "static/media/Realhousey1.mp4": "./static/media/Realhousey1.70e97d26.mp4",
     "static/media/Realhousey2.mp4": "./static/media/Realhousey2.841e38fe.mp4",
@@ -38,15 +38,15 @@
     "static/media/spapshoot.jpg": "./static/media/spapshoot.b306c8f0.jpg",
     "static/media/tap2-hover-back.svg": "./static/media/tap2-hover-back.6f4bd69f.svg",
     "static/media/tasnuva-logo.svg": "./static/media/tasnuva-logo.f6846980.svg",
-    "static/media/tasnuvaResume.pdf": "./static/media/tasnuvaResume.faf67952.pdf",
+    "static/media/tasnuvaResume.pdf": "./static/media/tasnuvaResume.bf40cc1d.pdf",
     "static/media/veplop.jpg": "./static/media/veplop.f1a9c6d4.jpg",
     "static/media/web-code-link.svg": "./static/media/web-code-link.02812878.svg",
     "static/media/web1.svg": "./static/media/web1.2f4e2ad2.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.916853f0.js",
-    "static/js/2.046c925e.chunk.js",
-    "static/css/main.cfa9f8aa.chunk.css",
-    "static/js/main.7d2ba236.chunk.js"
+    "static/js/2.f112da60.chunk.js",
+    "static/css/main.9f23f26f.chunk.css",
+    "static/js/main.b386a250.chunk.js"
   ]
 }

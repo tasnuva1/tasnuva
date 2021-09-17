@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "56cdef1707893cb882acf09e3c788b2a",
+    "revision": "992f024421b759b55d94bf9870019768",
     "url": "./index.html"
   },
   {
-    "revision": "77a9ae5ae8b76cf00bb9",
-    "url": "./static/css/main.cfa9f8aa.chunk.css"
+    "revision": "22fb0a3376e4f83d77a6",
+    "url": "./static/css/main.9f23f26f.chunk.css"
   },
   {
-    "revision": "f25ffa40c1a540f65588",
-    "url": "./static/js/2.046c925e.chunk.js"
+    "revision": "23964a83a4e934939136",
+    "url": "./static/js/2.f112da60.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "./static/js/2.046c925e.chunk.js.LICENSE.txt"
+    "url": "./static/js/2.f112da60.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "77a9ae5ae8b76cf00bb9",
-    "url": "./static/js/main.7d2ba236.chunk.js"
+    "revision": "22fb0a3376e4f83d77a6",
+    "url": "./static/js/main.b386a250.chunk.js"
   },
   {
     "revision": "610a38b7b5a7cb7b2d5e",
@@ -128,8 +128,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/tasnuva-logo.f6846980.svg"
   },
   {
-    "revision": "faf6795297dd2b31ebdd831b59320bfc",
-    "url": "./static/media/tasnuvaResume.faf67952.pdf"
+    "revision": "bf40cc1dc0126a0f66a8d90d6ca6bb92",
+    "url": "./static/media/tasnuvaResume.bf40cc1d.pdf"
   },
   {
     "revision": "f1a9c6d4b5b01899185542ddb0a09a06",
