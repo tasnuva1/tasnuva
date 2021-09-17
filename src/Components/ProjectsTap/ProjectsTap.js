@@ -1,45 +1,45 @@
-import React from 'react';
-import './ProjectsTap.scss';
-import '../../react-tabs.scss';
-import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
+import React from "react";
+import "./ProjectsTap.scss";
+import "../../react-tabs.scss";
+import { Tabs, TabList, Tab, TabPanel } from "react-tabs";
 
-import SingleTap2 from '../SingleTap2/SingleTap2';
-import pro1 from '../../ExternalAssets/web-dev/realhousey.jpg';
-import pro2 from '../../ExternalAssets/web-dev/search.jpg';
-import pro3 from '../../ExternalAssets/web-dev/spapshoot.jpg';
-import pro4 from '../../ExternalAssets/web-dev/veplop.jpg';
+import SingleTap2 from "../SingleTap2/SingleTap2";
+import pro1 from "../../ExternalAssets/web-dev/realhousey.jpg";
+import pro2 from "../../ExternalAssets/web-dev/search.jpg";
+import pro3 from "../../ExternalAssets/web-dev/spapshoot.jpg";
+import pro4 from "../../ExternalAssets/web-dev/veplop.jpg";
 
-import grapsub1 from '../../ExternalAssets/grap/logo1.svg';
-import grapsub2 from '../../ExternalAssets/grap/logo2.svg';
-import grapsub3 from '../../ExternalAssets/grap/logo3.svg';
-import grapsub4 from '../../ExternalAssets/grap/logo4.svg';
+import grapsub1 from "../../ExternalAssets/grap/logo1.svg";
+import grapsub2 from "../../ExternalAssets/grap/logo2.svg";
+import grapsub3 from "../../ExternalAssets/grap/logo3.svg";
+import grapsub4 from "../../ExternalAssets/grap/logo4.svg";
 
-import threeDweb1 from '../../ExternalAssets/3D-objects/web1.svg';
+import threeDweb1 from "../../ExternalAssets/3D-objects/web1.svg";
 
-import Tab1 from '../Tab1/Tab1';
+import Tab1 from "../Tab1/Tab1";
 
-import Project1 from '../WebDev/Project1/Project1';
-import Project2 from '../WebDev/Project2/Project2';
-import Project3 from '../WebDev/Project3/Project3';
-import Project4 from '../WebDev/Project4/Project4';
+import Project1 from "../WebDev/Project1/Project1";
+import Project2 from "../WebDev/Project2/Project2";
+import Project3 from "../WebDev/Project3/Project3";
+import Project4 from "../WebDev/Project4/Project4";
 
-import GraphicsProject1 from '../Graphics/GraphicsProject1/GraphicsProject1';
-import GraphicsProject2 from '../Graphics/GraphicsProject2/GraphicsProject2';
-import GraphicsProject3 from '../Graphics/GraphicsProject3/GraphicsProject3';
-import GraphicsProject4 from '../Graphics/GraphicsProject4/GraphicsProject4';
-import GraphicsProject5 from '../Graphics/GraphicsProject5/GraphicsProject5';
+import GraphicsProject1 from "../Graphics/GraphicsProject1/GraphicsProject1";
+import GraphicsProject2 from "../Graphics/GraphicsProject2/GraphicsProject2";
+import GraphicsProject3 from "../Graphics/GraphicsProject3/GraphicsProject3";
+import GraphicsProject4 from "../Graphics/GraphicsProject4/GraphicsProject4";
+import GraphicsProject5 from "../Graphics/GraphicsProject5/GraphicsProject5";
 
-import ThreeDRenderProject1 from '../3DRender/3DRenderProject1/3DRenderProject1';
-import ThreeDRenderProject2 from '../3DRender/3DRenderProject2/3DRenderProject2';
-import ThreeDRenderProject3 from '../3DRender/3DRenderProject3/3DRenderProject3';
-import ThreeDRenderProject4 from '../3DRender/3DRenderProject4/3DRenderProject4';
-import ThreeDRenderProject5 from '../3DRender/3DRenderProject5/3DRenderProject5';
+import ThreeDRenderProject1 from "../3DRender/3DRenderProject1/3DRenderProject1";
+import ThreeDRenderProject2 from "../3DRender/3DRenderProject2/3DRenderProject2";
+import ThreeDRenderProject3 from "../3DRender/3DRenderProject3/3DRenderProject3";
+import ThreeDRenderProject4 from "../3DRender/3DRenderProject4/3DRenderProject4";
+import ThreeDRenderProject5 from "../3DRender/3DRenderProject5/3DRenderProject5";
 
-import OtherProject1 from '../Other/OtherProject1/OtherProject1';
-import OtherProject2 from '../Other/OtherProject2/OtherProject2';
-import OtherProject3 from '../Other/OtherProject3/OtherProject3';
-import OtherProject4 from '../Other/OtherProject4/OtherProject4';
-import OtherProject5 from '../Other/OtherProject5/OtherProject5';
+import OtherProject1 from "../Other/OtherProject1/OtherProject1";
+import OtherProject2 from "../Other/OtherProject2/OtherProject2";
+import OtherProject3 from "../Other/OtherProject3/OtherProject3";
+import OtherProject4 from "../Other/OtherProject4/OtherProject4";
+import OtherProject5 from "../Other/OtherProject5/OtherProject5";
 
 const customTab = ({ children }) => (
   <Tab>
@@ -47,12 +47,12 @@ const customTab = ({ children }) => (
   </Tab>
 );
 
-customTab.tabsRole = 'Tab'; // Required field to use your custom
+customTab.tabsRole = "Tab"; // Required field to use your custom
 
 const complexTap = (
-  <div className='projectpage-container'>
+  <div className="projectpage-container">
     <Tabs forceRenderTabPanel defaultIndex={1}>
-      <div className='tap-whole-container'>
+      <div className="tap-whole-container">
         <TabList>
           <Tab>
             <Tab1>WEB DEV</Tab1>
@@ -72,37 +72,37 @@ const complexTap = (
         <TabPanel>
           <Tabs forceRenderTabPanel>
             <TabList>
-              <div className='tap2'>
+              <div className="tap2">
                 <Tab>
                   <SingleTap2
                     image={pro1}
-                    url='http://realhousey.com/'
-                    codeUrl='https://github.com/tasnuva1/realHousey'
-                    heading='Web Dev // realhousey'
+                    url="https://realhousey.netlify.app/"
+                    codeUrl="https://github.com/tasnuva1/realHousey"
+                    heading="Web Dev // realhousey"
                   />
                 </Tab>
                 <Tab>
                   <SingleTap2
                     image={pro2}
-                    url='http://realhousey.com/'
-                    codeUrl='https://github.com/tasnuva1/realHousey'
-                    heading='Web Dev // realhousey'
+                    url="https://realhousey.netlify.app/"
+                    codeUrl="https://github.com/tasnuva1/realHousey"
+                    heading="Web Dev // realhousey"
                   />
                 </Tab>
                 <Tab>
                   <SingleTap2
                     image={pro3}
-                    url='https://spapshoot.netlify.app/'
-                    codeUrl='https://github.com/tasnuva1/spapshoot'
-                    heading='Web Dev // spapshoot'
+                    url="https://spapshoot.netlify.app/"
+                    codeUrl="https://github.com/tasnuva1/spapshoot"
+                    heading="Web Dev // spapshoot"
                   />
                 </Tab>
                 <Tab>
                   <SingleTap2
                     image={pro4}
-                    url='https://veplop.netlify.app/'
-                    codeUrl='https://github.com/tasnuva1/veplop'
-                    heading='Web Dev // veplop'
+                    url="https://veplop.netlify.app/"
+                    codeUrl="https://github.com/tasnuva1/veplop"
+                    heading="Web Dev // veplop"
                   />
                 </Tab>
                 {/* <Tab>
@@ -136,26 +136,26 @@ const complexTap = (
           <Tabs forceRenderTabPanel>
             {/* <Tabs> */}
             <TabList>
-              <div className='tap2'>
+              <div className="tap2">
                 <Tab>
                   <SingleTap2
                     image={grapsub1}
-                    heading='Graphics // realhousey'
+                    heading="Graphics // realhousey"
                   />
                 </Tab>
                 <Tab>
                   <SingleTap2
                     image={grapsub3}
-                    heading='Graphics // spapshoot'
+                    heading="Graphics // spapshoot"
                   />
                 </Tab>
                 <Tab>
-                  <SingleTap2 image={grapsub2} heading='Graphics // veplop' />
+                  <SingleTap2 image={grapsub2} heading="Graphics // veplop" />
                 </Tab>
                 <Tab>
                   <SingleTap2
                     image={grapsub4}
-                    heading='Graphics // Synthesis'
+                    heading="Graphics // Synthesis"
                   />
                 </Tab>
                 {/* <Tab>
@@ -190,11 +190,11 @@ const complexTap = (
         <TabPanel>
           <Tabs forceRenderTabPanel>
             <TabList>
-              <div className='tap2'>
+              <div className="tap2">
                 <Tab style={{ height: 167 }}>
                   <SingleTap2
                     image={threeDweb1}
-                    heading='3D Render // Books playlist website'
+                    heading="3D Render // Books playlist website"
                   />
                 </Tab>
                 {/* <Tab>
@@ -251,7 +251,7 @@ const complexTap = (
         <TabPanel>
           <Tabs forceRenderTabPanel>
             <TabList>
-              <div className='tap2'>
+              <div className="tap2">
                 {/* <Tab>
                   <SingleTap2
                     image={pro1}
